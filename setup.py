@@ -26,10 +26,10 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         ],
     url='https://github.com/cceit/reinhardt-bdd',
-    packages=['src'],
+    packages=['reinhardt_bdd'],
     include_package_data=True,
     package_data={
-        'src': [
+        'reinhardt_bdd': [
             '*.py',
             'management/commands/*.py',
         ],
